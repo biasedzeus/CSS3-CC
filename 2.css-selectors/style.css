@@ -1,0 +1,19 @@
+body{
+    font-size: 22px;
+}
+p{
+    color:blue;
+}
+
+
+.gray{
+    color:gray
+}
+
+p{
+    color:blue;
+}
+
+h1,h2{
+    color: red;
+}
