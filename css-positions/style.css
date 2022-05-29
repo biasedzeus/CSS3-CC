@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap");
+
+/* Css Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5rem;
+/* background-color: #f4f5f3; */
+    min-height: 200vh;
+}
+
+.outer-container{
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+
+}
+
+.inner-container{
+    border: 2px dashed red;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    color: rgb(34, 116, 184);
+    padding: 1rem;
+}
