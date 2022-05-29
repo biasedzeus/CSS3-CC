@@ -10,7 +10,7 @@ body {
 }
 
 .columns{
-    color: red;
+    color: #333;
     /* column-count:4;
     column-width: 250px; */
 
@@ -38,3 +38,16 @@ body {
 
 
 }
+.columns .qoute{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    column-span: all;
+    margin-top: 2rem;
+}
+
+.noWrap{
+    white-space:nowrap;
+}
+
