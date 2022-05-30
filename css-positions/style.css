@@ -20,7 +20,7 @@ body{
     width: 75vw;
     height: 85vh;
     margin: 40px auto;
-    position: relative;
+    /* position: relative; */
 
 }
 
@@ -29,7 +29,7 @@ body{
     width: 40vw;
     height: 50vh;
     margin: 200px auto;
-    position: relative;
+    /* position: relative; */
 
 
 }
@@ -46,6 +46,30 @@ body{
 .absolute{
     background-color:blue;
     position: absolute;
+    /* top: 100px;
+    left: 150px; */
     top: 0;
-    left: 0;
+    left: 250px;
+    z-index: 1;
+}
+
+
+.relative{
+    background-color: red;
+    position: relative;
+    top: 200px;
+    left: 150px;
+
+}
+
+.fixed{
+    background-color: green;
+    position: fixed;
+    top: 100px;
+}
+
+.sticky {
+    background-color: yellow;
+    position: sticky;
+    top: 20px;
 }
