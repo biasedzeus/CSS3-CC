@@ -146,3 +146,17 @@ a:active{
 html{
     scroll-behavior: smooth;
 }
+
+#four{
+font-size:4 rem;
+background-color:black;
+color:white;
+padding: 1rem;
+}
+
+#four h2{
+color:yellow;
+
+}
+
+}
