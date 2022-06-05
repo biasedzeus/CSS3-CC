@@ -146,3 +146,73 @@ a:active{
 html{
     scroll-behavior: smooth;
 }
+
+#four{
+font-size:4 rem;
+background-color:black;
+color:white;
+padding: 1rem;
+}
+
+#four h2{
+color:yellow;
+
+}
+
+}
+
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#one {
+  position: fixed;
+  top: 80px;
+  left: 10px;
+  background: blue;
+}
+
+.outer {
+  width: 500px;
+  height: 300px;
+  overflow: scroll;
+  padding-left: 150px;
+}
+
+
+
+
+dl > div {
+  background: #FFF;
+  padding: 24px 0 0 0;
+}
+
+dt {
+  background: #B8C1C8;
+  border-bottom: 1px solid #989EA4;
+  border-top: 1px solid #717D85;
+  color: #FFF;
+  font: bold 18px/21px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+
+dd {
+  font: bold 20px/45px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 0 12px;
+  white-space: nowrap;
+}
+
+dd + dd {
+  border-top: 1px solid #CCC;
+}
+
