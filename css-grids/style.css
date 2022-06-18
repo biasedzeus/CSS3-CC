@@ -11,7 +11,7 @@ body{
 
 
 
-h1{
+.heading_css{
     background-color: rgb(31, 248, 237);
     text-align: center;
     box-shadow: 2px 2px 0px 0.5;
@@ -67,6 +67,16 @@ grid-row-end: 3;
 /* Shorthand for row-start & row-end */
 grid-row: 1 / 3;
 
+/* Nested Grid */
+display: grid;
+align-content:center;
+justify-content: center;
+
+/* Shorthand For align-content & justify-content */
+place-content: center center;
+place-content: center;
+/* assigns both to center */
+
 }
 
 
@@ -78,6 +88,45 @@ grid-row: 1 / 3;
 
 
 
+/* Grid Template Areas , Grid Area */
+
+body{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-auto-rows:75px auto 85px ;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd hd" 
+    "mn mn mn mn mn mn mn sb sb"
+    "ft ft ft ft ft ft ft ft ft"
+    ;
+    gap: 1rem;
+}
+
+.el{
+    background-color: brown;
+    color: white;
+    display: grid;
+    place-content: center;
+}
+
+.header{
+    grid-area:hd;
+}
+
+.container{
+    grid-area: mn;
+
+}
+
+.sidebar{
+    grid-area: sb;
+}
+
+.footer{
+    grid-area: ft;
+    background-color: aquamarine;
+    color: black;
+}
 
 
 
@@ -100,5 +149,6 @@ grid-row: 1 / 3;
 .container__row.box{
     background-color: #fff;
 } */
+
 
 
